@@ -8,42 +8,46 @@
     font-family: 'Work Sans';
 }
 
+section{
+    margin: 100px 0;
+}
 
 /* common css Shared */
 .container {
-   width: 90%;
+    width: 80%;
     /* max-width: 1150px; */
     margin: 0 auto;
 }
-p{
+
+p {
     font-size: 1rem;
-font-weight: 400;
-line-height: 26px; 
-margin: 1.5rem 0;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1.5rem 0;
 }
 
 .btn {
-font-size: 1rem;
-font-weight: 600;
-border-radius: 5px;
-background: #FFF;
-border: none;
-padding: 1.25rem 2rem;
-cursor: pointer;
-transition: all 1s;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 1.25rem 2rem;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-.btn:hover{
+.btn:hover {
     font-weight: 800;
 }
 
 /* Header Part CSS */
 header {
     background: url('../images/banner/banner3.png'), lightgray 50%;
-height: 100vh;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: left bottom;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 header .container {
@@ -72,11 +76,8 @@ header .container .banner_desc .btn {
     color: #005FAC;
 }
 
-
-
-
 /* failure section */
-.failure{
+.failure {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,28 +85,56 @@ header .container .banner_desc .btn {
     width: 80%;
 }
 
-.failure div{
+.failure div {
     width: 400px;
 }
 
-.failure > div{
-    /* flex: .5; */
-}
-.failure .failure_info{}
-.failure .failure_info h2{
+.failure .failure_info h2 {
     color: #151414;
-font-size: 2.3rem;
-font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 700;
 }
-.failure .failure_info p{}
-.failure .failure_info ul{
+
+.failure .failure_info ul {
     list-style-type: none;
 }
-.failure .failure_info ul li{
-    line-height:26px;
+
+.failure .failure_info ul li {
+    line-height: 26px;
 }
-.failure .failure_info ul li i{
+
+.failure .failure_info ul li i {
     color: #005FAC;
     margin-right: 10px;
 }
 
+/* my plan section */
+.my_plans{}
+.my_plans .container{
+    text-align: center;
+}
+.my_plans h2{   
+    margin: 2rem 0;
+    font-size: 2.2rem;
+}
+.my_plans .plan_boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.my_plans .plan_boxes img{
+    height: 100px;
+    width: 100px;
+}
+.my_plans .plan_boxes h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.my_plans .plan_boxes p{
+    margin-top: 0;
+}
