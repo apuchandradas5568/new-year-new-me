@@ -141,9 +141,6 @@ header .container .banner_desc .btn {
     font-weight: 700;
 }
 
-.my_plans .plan_boxes p {
-    margin-top: 0;
-}
 
 
 /* call me section */
@@ -172,4 +169,64 @@ header .container .banner_desc .btn {
 
 .callme .container .btn {
     color: #005FAC;
+}
+
+
+/* footer section */
+
+footer{
+    background: #151414;
+    padding: 10rem 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+footer .container > div{
+    flex: .35;
+}
+
+footer .container h2{
+    color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+}
+footer .container p{
+    color: #F8F8F8;
+    font-weight: 400;
+}
+footer .container p br{
+    margin: .5rem 0;
+}
+footer .container .icon_box{
+
+}
+footer .container .icon_box .icon_img{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+footer .container .icon_box .icon_img img{
+    width: 50px;
+}
+footer .container h3{
+    font-size: 2rem;
+    color: #F8F8F8;
+    margin-bottom: 1rem;
+}
+footer .container input{
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+footer .container button{
+    background: #005FAC;
+    color: #F8F8F8;
 }
