@@ -8,7 +8,7 @@
     font-family: 'Work Sans';
 }
 
-section{
+section {
     margin: 100px 0;
 }
 
@@ -109,15 +109,18 @@ header .container .banner_desc .btn {
 }
 
 /* my plan section */
-.my_plans{}
-.my_plans .container{
+.my_plans {}
+
+.my_plans .container {
     text-align: center;
 }
-.my_plans h2{   
+
+.my_plans h2 {
     margin: 2rem 0;
     font-size: 2.2rem;
 }
-.my_plans .plan_boxes{
+
+.my_plans .plan_boxes {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -126,15 +129,47 @@ header .container .banner_desc .btn {
     margin-top: 3rem;
     padding: 1rem;
 }
-.my_plans .plan_boxes img{
+
+.my_plans .plan_boxes img {
     height: 100px;
     width: 100px;
 }
-.my_plans .plan_boxes h3{
+
+.my_plans .plan_boxes h3 {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
 }
-.my_plans .plan_boxes p{
+
+.my_plans .plan_boxes p {
     margin-top: 0;
+}
+
+
+/* call me section */
+.callme {
+
+}
+
+.callme .container {
+    border-radius: 8px;
+    background: linear-gradient(to right, rgba(20, 125, 223, 0.796), rgba(255, 255, 255, 0)), url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    padding: 5rem;
+}
+
+.callme .container h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 800;
+    width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.callme .container .btn {
+    color: #005FAC;
 }
