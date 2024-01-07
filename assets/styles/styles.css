@@ -13,6 +13,13 @@
 .container {
    width: 90%;
     /* max-width: 1150px; */
+    margin: 0 auto;
+}
+p{
+    font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+margin: 1.5rem 0;
 }
 
 .btn {
@@ -59,12 +66,46 @@ header .container .banner_desc h1 {
 
 header .container .banner_desc p {
     color: #FFF;
-font-size: 1rem;
-font-weight: 400;
-line-height: 26px; 
-margin: 1.5rem 0;
 }
 
 header .container .banner_desc .btn {
     color: #005FAC;
 }
+
+
+
+
+/* failure section */
+.failure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.failure div{
+    width: 400px;
+}
+
+.failure > div{
+    /* flex: .5; */
+}
+.failure .failure_info{}
+.failure .failure_info h2{
+    color: #151414;
+font-size: 2.3rem;
+font-weight: 700;
+}
+.failure .failure_info p{}
+.failure .failure_info ul{
+    list-style-type: none;
+}
+.failure .failure_info ul li{
+    line-height:26px;
+}
+.failure .failure_info ul li i{
+    color: #005FAC;
+    margin-right: 10px;
+}
+
