@@ -43,10 +43,12 @@ p {
 /* Header Part CSS */
 header {
     background: url('../images/banner/banner3.png'), lightgray 50%;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
+    height: calc(max-content + 100px) !important;
+
 }
 
 header .container {
@@ -232,7 +234,6 @@ footer .container button {
 @media screen and (max-width:1200px) {
     header {
         background-size: auto;
-        height: calc(max-content + 100px) !important;
     }
     header h1{
         font-size: 1.5rem;
