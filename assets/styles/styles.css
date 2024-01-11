@@ -232,6 +232,17 @@ footer .container button {
 @media screen and (max-width:1200px) {
     header {
         background-size: auto;
+        height: calc(max-content + 100px) !important;
+    }
+    header h1{
+        font-size: 1.5rem;
+    }
+    header p{
+        font-size: .85rem;
+        margin: .2rem;
+    }
+    .banner_desc{
+        width: 80%;
     }
 
     section.failure {
